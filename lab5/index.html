@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>WEB/FE 1 lab</title>
+</head>
+
+<body>
+    <h2>Пилипчук Марія Вячеславівна</h2>
+    <p>Місце народження: м.Київ, 21 лютого 2002 року.</p>
+    <p>Освіта: СШ №329 "Логос" ім.Георгія Гонгадзе,
+        <dd>НТУУ "КПІ ім.Ігоря Сікорського".</dd>
+    </p>
+    
+    <p>Хоббі:</p>
+    <ul>
+        <li>Танці</li>
+        <li>Спорт</li>
+        <li>Веб-дизайн</li>
+        <li>Малювання</li>
+      </ul>
+
+    <p id = '10'>Улюбленні фільми:</p>
+    <ol class = "films">
+        <li>"Стартрек", 2009.</li>
+        <li>"Форест Гамп", 1994.</li>
+        <li>"Матрица", 1999.</li>
+        <li>"Начало", 2010.</li>
+    </ol>
+
+    <p> На севере Ломбардии, совсем рядом со швейцарской границей, <br>
+        раскинулось озеро Комо (итал.  Lago di Como). Словно драгоценный <br>
+        камень, воды Комо блестят в оправе Альпийских гор. Чрезвычайно глубокое <br>
+        и сказочно прекрасное озеро любят исконные итальянцы и многочисленные гости страны. </p>
+    <p>Горные пейзажи в обрамлении пушистых облаков служат источником вдохновения <br>
+        для писателей, художников и работников киноиндустрии. Роскошные виллы, ухоженные <br>
+        парки и ласковые волны горного озера обволакивают посетителей курорта райской негой.</p>
+    <a href="https://italy4.me/ozera/como.html"><img src="https://italy4.me/wp-content/uploads/2014/08/озеро-Комо-Италия.jpg"></a>
+
+    <button onclick="openForm()">Додати</button>
+    <button>Збільшити</button>
+    <button>Зменшити</button>
+    <button>Видалити</button>
+
+    <div class="url-form" id="form">
+        <form action="#" class="form-container">
+          <label for="name"><b>Имя</b></label>
+          <input id = 'url' type="text" placeholder="Ваше имя" name="name" required>
+          <button type="submit" class="btn" id="submit">Отправить</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+        </form>
+      </div>
+
+    <div id="url-image"></div>
+</body>
+</html>
